@@ -10,6 +10,11 @@
 #==============================================================================
 
 # `rm -Rf $1*.ts` -- depricate
-ls -t $1 | sed '1,2d' | rm -Rf $1*.ts
-COUNT_FILE=`ls -f $1 | wc -l`
-echo 'done... this folder '$COUNT_FILE' files now'
+while:
+do
+	rm -Rf $1*.ts
+	COUNT_FILE=`ls -f $1 | wc -l`
+	echo 'done... this folder '$COUNT_FILE' files now'
+
+	sleep 86400 # 24 hours
+done
