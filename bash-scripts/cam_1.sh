@@ -1,10 +1,10 @@
 #!/bin/bash -       
 #title           :cam_1.sh
 #description     :This script will make a stream from the RSTP protocol
-#author		 	 :Andrey SHSH
+#author          :Andrey SHSH
 #date            :11032020
 #version         :0.4    
-#usage		 	 :bash cam_1.sh
+#usage           :bash cam_1.sh
 #notes           :empty
 #bash_version    :1.0-release
 #==============================================================================
