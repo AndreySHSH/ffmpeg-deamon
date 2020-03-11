@@ -9,12 +9,11 @@
 #bash_version    :1.0-release
 #==============================================================================
 
-# `rm -Rf $1*.ts` -- depricate
-while:
-do
+while true;
+do;
 	rm -Rf $1*.ts
 	COUNT_FILE=`ls -f $1 | wc -l`
 	echo 'done... this folder '$COUNT_FILE' files now'
 
 	sleep 86400 # 24 hours
-done
+done;
