@@ -4,7 +4,7 @@
 #author          :Andrey SHSH
 #date            :11032020
 #version         :0.4    
-#usage           :bash cam_1.sh 'args rtsp path'
+#usage           :bash cam_1.sh rtsp_path num_cam
 #notes           :empty
 #bash_version    :1.0-release
 #==============================================================================
