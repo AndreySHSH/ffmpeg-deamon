@@ -10,7 +10,7 @@
 #==============================================================================
 
 while true;
-do;
+do
 	rm -Rf $1*.ts
 	COUNT_FILE=`ls -f $1 | wc -l`
 	echo 'done... this folder '$COUNT_FILE' files now'
