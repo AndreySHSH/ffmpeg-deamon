@@ -19,7 +19,7 @@ HLS='-hls_flags delete_segments+append_list -f segment -segment_list_flags live 
 OUTPUT=$PROJECT_PATH'/video_cam_'$2'/index.m3u8 -segment_list_type m3u8 '$PROJECT_PATH'/video_cam_'$2'/stream%02d.ts'
 
 if 	[ "$3" ]; then
-	ffmpeg $INPUT $VIDEO $HLS $OUTPUT -debug
+	ffmpeg $INPUT $VIDEO $HLS $OUTPUT -loglevel debug
 else
 	ffmpeg $INPUT $VIDEO $HLS $OUTPUT
 fi
